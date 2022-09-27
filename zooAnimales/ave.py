@@ -1,7 +1,7 @@
 from zooAnimales.animal import Animal
 
 class Ave(Animal):
-    def __init__(self, listado, halcones, aguilas, colorPlumas):
+    def __init__(self, colorPlumas):
         
         self.listado = Ave
         self.halcones = halcones

@@ -8,9 +8,9 @@ class Zoologico:
         self.nombre = nombre
         self.ubicacion = ubicacion
         zonas= Zona(nombre)
-    def getnombre(self):
+    def getNombre(self):
         return self.nombre
-    def setnombre(self, nombre):
+    def setNombre(self, nombre):
         self.nombre = nombre
     def getubicacion(self):
         return self.ubicacion

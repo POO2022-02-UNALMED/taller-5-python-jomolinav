@@ -1,11 +1,10 @@
 class Animal:
-    def __init__(self, totalAnimales, nombre, edad, habitat, genero, zona):
+    def __init__(self, nombre, edad, habitat, genero):
         self.totalAnimales = totalAnimales
         self.nombre = nombre
         self.edad = edad
         self.habitat = habitat
         self.genero = genero
-        self.zona = Zona
         self.totalAnimales = cantidadMamiferos + cantidadAnfibios + cantidadAves + cantidadPeces + cantidadReptiles
     def gettotalAnimales(self):
         return self.totalAnimales

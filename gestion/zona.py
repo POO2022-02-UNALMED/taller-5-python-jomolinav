@@ -1,6 +1,6 @@
 LisAnimales = []
 class Zona:
-    def __init__(self, nombre):
+    def __init__(self, nombre, ):
         self.nombre = nombre
 
     def getnombre(self):

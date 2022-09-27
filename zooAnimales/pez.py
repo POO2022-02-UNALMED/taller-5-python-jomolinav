@@ -2,7 +2,7 @@ from zooAnimales.animal import Animal
 
 class Pez(Animal):
 
-    def __init__(self, listado, salmones, bacalaos, colorEscamas, cantidadAletas):
+    def __init__(self, colorEscamas, cantidadAletas):
         self.listado = Pez
         self.salmones = salmones
         self.bacalaos = bacalaos

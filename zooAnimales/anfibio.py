@@ -2,7 +2,7 @@ from zooAnimales.animal import Animal
 
 class Anfibio(Animal):
 
-    def __init__(self, listado, ranas, salamandras, colorPiel, venenoso):
+    def __init__(self, colorPiel, venenoso):
         self.listado = Anfibio
         self.ranas = ranas
         self.salamandras = salamandras
